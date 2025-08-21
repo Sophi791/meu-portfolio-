@@ -1,0 +1,18 @@
+/* css externo */
+
+body {
+background:rgb(12, 20, 54) ; /* cor fundo */
+color: rgb(255, 255, 255); /* cor textos */
+font-family: cursive;
+} 
+a {
+
+color: rgba(240, 248, 255, 0.954);
+text-decoration:none ;
+}
+
+ul {
+list-style: none ; /*Estilo de Lista  */
+
+
+}
