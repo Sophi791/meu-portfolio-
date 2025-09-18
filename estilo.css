@@ -14,7 +14,32 @@
     --cor--texto: rgb(12, 20, 54);
 
 }
+/* inverter cor logo */
+html[data-theme='light'] .logo {
+    filter: invert(1);
 
+
+
+
+
+}
+
+
+
+
+
+
+
+
+/* reset css= padronizar */
+/* seletor universal */
+
+*{ 
+    margin:0 ;
+padding:0 ;
+
+
+}
 body {
     background: var(--cor-fundo);
     /* cor fundo */
@@ -37,10 +62,13 @@ ul {
 header {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: center; 
     width: 100%;
     background: rgb(250, 155, 192);
-    border-bottom: var(--cor-borda);
+    border-bottom: 5px double var(--cor-borda);
+    position: fixed; 
+    z-index: 9999;
+
 }
 
 .menu-desktop {
@@ -153,7 +181,7 @@ text-align: center;
 
 .logo {
 width: 3.25rem; /* compriemnto */
-height:1.90rem ; /* altura */
+height: auto ; /* altura */
 }
 
 .header-toggle {
