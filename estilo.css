@@ -351,18 +351,26 @@ transition: 0.5s ease-in-out;
 
 }
 
-.col6 { 
-background-color: #db85a9;
+.col1 { 
+background-color: #ff008c;
 }
 
-.col5 { 
-background-color: #f76582;
-
-
+.col2 { 
+background-color: #d8a3ad;
 }
 
-.col7 {
-background-color: #c65491;
+.col3 {
+background-color: #ff0873;
+}
+
+.col4 {
+background-color: #e33d9b;
+}
+.col5 {
+background-color: #bf71bc;
+}
+.col6 {
+background-color: #ca6591;
 }
 
 
